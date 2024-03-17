@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- ääkköset mukaan -->
+    <meta charset="UTF-8">
+    <!-- näytön leveyden ja skaalauksen asetus mobiililaitteella -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- optimointi mobiililaitteille -->
+    <meta name="MobileOptimmized" content="width" />
+    <!-- sivu on suunniteltu käytettäväksi kädellä -->
+    <meta name="HandeldFriendly" content="true" />
+    <!-- selaimen yhteensopivuustila -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <title> Tanja Vatka </title>
+
+    <!-- hamburger icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900" rel="stylesheet">
+    
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <!-- Simulate a smartphone / tablet -->
+    <div class="mobile-container">
+
+      <!-- Top Navigation Menu -->
+      <div class="topnav">
+        <a href="index.html" class="logo split"> Tanja Vatka </a>
+        <div id="myLinks">
+          <a href="about.html">About</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contacts.html">Contact</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+    <!-- End smartphone / tablet look -->
+    </div>
+
+    <section>
+        <h2> PORTFOLIO </h2> 
+    </section>
+
+    <section>
+        <div class="row">
+            
+            <div class="column">
+                <video width="340" height="460" controls>
+                    <source src="material/myyntivideo.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="column">
+                <img src="material/mobilesite.jpeg" id="contactkuva">
+            </div>
+        </div>
+    </section>
+
+    <!-- alatunniste -->
+    <footer>
+      <h4> Contact information: </h4>
+      <p> tanja.vatka (a) hotmail.com</p>
+      <p> Helsinki, Finland </p>
+      <a href="https://www.instagram.com/tntanjavatka" target="_blank" class="fa fa-instagram insta"> tntanjavatka </a>
+    </footer>
+
+    <p class="copyright"> &copy; All rights reserved.</p>
+
+  </body>
+</html>

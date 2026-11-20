@@ -17,4 +17,4 @@ My first website, made in the Introduction to Digital Services course at Haaga-H
 - Responsive layout with a hamburger menu on mobile
 - Published with GitHub Pages
 
-This was one of my first web projects, so it shows where I started. My newer projects are pinned on my profile.
+This was one of my first web projects, so it shows where I started.
